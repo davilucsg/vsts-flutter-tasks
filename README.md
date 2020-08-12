@@ -7,11 +7,11 @@ This extension is custom/updated/maintained fork of Alois Deniel's extension [Gi
 
 ## Installation
 
-Installation can be done using [Visual Studio MarketPlace](https://marketplace.visualstudio.com/items?itemName=hey24sheep.flutter).
+Installation can be done using [Visual Studio MarketPlace](https://marketplace.visualstudio.com/items?itemName=davilucsg.flutter).
 
 ## Source Code
 
-Source code can be found on [Github](https://github.com/hey24sheep/vsts-flutter-tasks).
+Source code can be found on [Github](https://github.com/davilucsg/vsts-flutter-tasks).
 
 Original Author : [Github](https://github.com/aloisdeniel/vsts-flutter-tasks).
 
@@ -103,4 +103,4 @@ A task example :
 
 ## License
 
-[MIT](https://raw.githubusercontent.com/hey24sheep/vsts-flutter-tasks/master/LICENSE)
+[MIT](https://raw.githubusercontent.com/davilucsg/vsts-flutter-tasks/master/LICENSE)

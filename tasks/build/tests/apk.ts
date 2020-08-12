@@ -1,6 +1,6 @@
-import * as path from 'path';
-import * as fs from 'fs';
 import * as mr from 'azure-pipelines-task-lib/mock-run';
+import * as fs from 'fs';
+import * as path from 'path';
 
 const taskPath = path.join(__dirname, "../index.js");
 var runner = new mr.TaskMockRunner(taskPath);
@@ -29,7 +29,7 @@ assertDirectory(process.env["AGENT_BUILDDIRECTORY"] = path.join(agentPath, "buil
 process.env["FlutterToolPath"] = path.join(agentPath, "tools", "Flutter", "0.9.6-dev", "macos", "flutter", "bin");
 
 runner.setInput("target", "apk");
-runner.setInput("buildName", "com.hey24sheep.vsts");
+runner.setInput("buildName", "com.davilucsg.vsts");
 runner.setInput("buildNumber", "12");
 runner.setInput("projectDirectory", path.join(rootPath, "sample_project"));
 runner.setInput("outputDirectory", dropPath);
