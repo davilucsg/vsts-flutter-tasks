@@ -3,16 +3,16 @@
     "name": "FlutterBuild",
     "friendlyName": "Flutter Build Task",
     "description": "Build a Flutter application project.",
-    "helpMarkDown": "[More Information](https://github.com/hey24sheep/vsts-flutter-tasks)",
+    "helpMarkDown": "[More Information](https://github.com/davilucsg/vsts-flutter-tasks)",
     "category": "Build",
     "visibility": [
         "Build"
     ],
-    "author": "Hey24sheep",
+    "author": "Davilucsg",
     "version": {
         "Major": 0,
-        "Minor": 2,
-        "Patch": 34
+        "Minor": 1,
+        "Patch": 0
     },
     "groups": [],
     "instanceNameFormat": "Flutter Build $(target)",
@@ -123,6 +123,15 @@
             "required": false,
             "helpMarkDown": "Indicates whether the application bundle should be codesigned. **Warning: you must install a valid certificate before build with the `Install an Apple Certificate`task**",
             "visibleRule": "target = ios"
+        },
+
+        {
+            "name": "dartdefine",
+            "type": "string",
+            "label": "Parameter value for dart_fine usage in fluter build",
+            "defaultValue": "true",
+            "required": false,
+            "helpMarkDown": "Parameter value for dart_fine usage in fluter build"
         }
     ],
     "execution": {

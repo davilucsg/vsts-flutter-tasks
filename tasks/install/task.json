@@ -5,11 +5,11 @@
     "description": "Install the Flutter environment.",
     "helpMarkdown": "For more information, take a look at the Flutter [documentation](https://flutter.io)",
     "category": "Tool",
-    "author": "Hey24sheep",
+    "author": "Davilucsg",
     "version": {
         "Major": 0,
-        "Minor": 2,
-        "Patch": 39
+        "Minor": 1,
+        "Patch": 0
     },
     "instanceNameFormat": "Flutter Install",
     "inputs": [

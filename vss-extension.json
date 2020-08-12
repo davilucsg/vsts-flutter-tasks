@@ -28,12 +28,12 @@
     },
     "links": {
         "support": {
-            "uri": "https://github.com/aloisdeniel/vsts-flutter-tasks/issues"
+            "uri": "https://github.com/davilucsg/vsts-flutter-tasks/issues"
         }
     },
     "repository": {
         "type": "git",
-        "uri": "https://github.com/hey24sheep/vsts-flutter-tasks"
+        "uri": "https://github.com/davilucsg/vsts-flutter-tasks"
     },
     "tags": [
         "flutter",
